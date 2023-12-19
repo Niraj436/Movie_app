@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.image_carousel{
+    height: 600px;
+    object-fit: cover;
+    object-position: top;
+}
+.media-query{
+    @apply md:flex md:flex-wrap sm:flex sm:flex-wrap sm:gap-14;
+}
+
+.header_btn{
+    @apply hover:text-red-500 hover:scale-105;
+}
